@@ -1,0 +1,10 @@
+AD8021,,,
+pin,name,type,side
+1,Dref,pwr,left
+2,-In,in,left
+3,+In,in,left
+4,-Vs,pwr,left
+5,Ccomp,passive,right
+6,Vout,out,right
+7,+Vs,pwr,right
+8,~DISABLE,in,right

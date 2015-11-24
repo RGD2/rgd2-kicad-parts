@@ -1,0 +1,10 @@
+AD8429,,,
+pin,name,type,side
+1,-in,passive,left
+2,Rg1,passive,left
+3,Rg2,passive,left
+4,+in,passive,left
+5,-Vs,pwr,right
+6,Vref,out,right
+7,Vout,bi,right
+8,+Vs,pwr,right

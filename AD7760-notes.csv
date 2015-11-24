@@ -1,0 +1,67 @@
+AD7760,,,,
+pin,name,type,side,info
+1,DGND,pwr,left,
+2,MCLKGND,pwr,left,
+3,MCLK,in,left,"5V logic , low jitter, 50%duty,  40 MHz default, or 20 MHz. Buffer with (Fairchild Semi NC7S08 with both inputs connected to source)"
+4,AVDD2RHS,passive,left,"200uH (0603 Wurth Electronics 74279266 or 0805 Meggitt Sigma BMB-2A-0600R-S2)  from 5V and 100nF (0603, X7R) to gnd"
+5,AGND2,pwr,left,
+6,VMOD1,passive,left,100nf to gnd and 200uH from 2.5V logic supply
+7,AGND1,pwr,left,
+8,DECAPA,passive,left,100nF to gnd
+9,REFGND,pwr,left,
+10,VREF+,passive,left,"close 10nf to gnd, 10r to (100uf to gnd and 0r/100r (use 100r for better AC performance, 0r for DC perf)ref buffer) "
+11,AGND4,pwr,left,
+12,VBUF,passive,left,200uH from 3.3..5V ref buffer supply and 10r to 10nF to gnd
+13,AGND2,pwr,left,
+14,AVDD2LHS,passive,left,200uH from 5V and 10nF from pin 27 and 100nF to gnd
+15,VBIAS,passive,left,200uH from 5V and 100nF to gnd
+16,AGND2,pwr,left,
+17,RBIAS,passive,bottom,(Vref/25uA) R to gnd
+18,AGND2,pwr,bottom,
+19,VINA1+,passive,bottom,connect to gnd if unused
+20,VINA1-,passive,bottom,connect 33pF to gnd if unused
+21,VOUTA1-,passive,bottom,connect to gnd if unused
+22,VOUTA1+,passive,bottom,connect to gnd if unused
+23,AGND3,pwr,bottom,
+24,Vdiff,passive,bottom,200uH from 3.3..5V diff amp supply and 100 nF to gnd
+25,VIN+,passive,bottom,
+26,VIN-,passive,bottom,
+27,AVDD2,passive,bottom,10nH to pin 14
+28,AGND2,pwr,bottom,
+29,VOUTA2+,passive,bottom,connect to gnd
+30,VOUTA2-,passive,bottom,connect 33pF to gnd
+31,VINA2-,passive,bottom,connect to gnd
+32,VINA2+,passive,bottom,connect to gnd
+33,VMOD2,passive,right,100nf to gnd and 200uH from 2.5V logic supply
+34,AGND1,pwr,right,
+35,DGND,pwr,right,
+36,-SYNC,in,right,
+37,-RESET,in,right,
+38,-DRDY,out,right,
+39,-RD-/WR,in,right,
+40,-CS,in,right,
+41,DVDD,passive,right,200uH from 2.5V logic supply and 100nf to gnd
+42,DGND,pwr,right,
+43,DGND,pwr,right,
+44,VDRIVE,passive,right,200uH from 1.8..2.5V logic supply and 100nF to gnd
+45,DB15,tri,right,
+46,DB14,tri,right,
+47,DB13,tri,right,
+48,DB12,tri,right,
+49,DB11,tri,top,
+50,DB10,tri,top,
+51,DB9,tri,top,
+52,DB8,tri,top,
+53,DGND,pwr,top,
+54,DB7,tri,top,
+55,DB6,tri,top,
+56,DB5,tri,top,
+57,DB4,tri,top,
+58,DB3,tri,top,
+59,DB2,tri,top,
+60,DB1,tri,top,
+61,DB0,tri,top,
+62,DGND,pwr,top,
+63,VDRIVE,passive,top,200uH from 1.8..2.5V logic supply and 100nF to gnd
+64,DGND,pwr,top,
+65,PADDLE,pwr,right,

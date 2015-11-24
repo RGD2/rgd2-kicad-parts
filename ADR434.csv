@@ -1,0 +1,10 @@
+ADR434B,,,
+pin,name,type,side
+1,TP,nc,left
+2,Vin,in,left
+3,NIC,nc,left
+4,GND,pwr,left
+5,Trim,passive,right
+6,Vout,out,right
+7,Comp,passive,right
+8,TP,nc,right
